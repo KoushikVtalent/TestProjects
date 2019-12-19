@@ -7,9 +7,12 @@ namespace TestProjects.BussinessAccessLayer
 {
     public class Operations
     {
-        public int Addition(int a ,int b)
+        public int Addition()
         {
-            return a + b;
+            var a=10;
+            var b=20;
+            var c=a+b;
+            retur c;
 
         }
     }
